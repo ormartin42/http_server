@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>POST CHADSERV</title>
+        <style>
+            title {
+                text-align: center;
+                background-color: whitesmoke;
+                color:black; 
+            }
+            body {
+                width: 35em;
+                margin: 0 auto;
+                font-family: Tahoma, Verdana, Arial, sans-serif;
+                text-align: center;
+                background-color: whitesmoke;
+                color: black; 
+            }
+        </style>
+        <br/><br/><br/>
+    </head>
+    <body>
+        <h1>Tester POST avec notre CHADSERV</h1>
+        <div>
+            <form action="../uploads" method="post">
+                <label>Prenom : <input name="prenom"></label>
+                <br/><br/><br/>
+                <label>Nom : <input name="nom"></label>
+                <br/><br/><br/>
+				<input type="submit" value="OK">
+                <br/><br/><br/>
+			</form>
+			<form action="../uploads" method="post" enctype="multipart/form-data">
+                <label>Photo de Profil: <input type="file" name="avatar" accept="image/png, image/jpeg"></label>
+                <br/><br/><br/>
+                <button>Finaliser mon profil</button>
+          </form>
+        </div>
+    </body>
+</html>

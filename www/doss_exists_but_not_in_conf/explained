@@ -1,0 +1,2 @@
+Si dans le serveur on a autoindex on, et que ce dossier n'apparait pas sous forme de location dans le conf file, alors il ne faudrait pas que l'autoindex soit on ici, car off par defaut.
+Ca vaut aussi pour la methode --> aucune methode autorisee
